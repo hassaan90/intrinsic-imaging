@@ -1,0 +1,26 @@
+ ---> Init experiment: exp1 <---
+
+ > Reading training set...
+   Computing normalization constants from training set...
+   Found 16527 images belonging to 221 classes
+
+ > Reading validation set...
+   Found 1644 images belonging to 221 classes
+
+ > Reading testing set...
+   Found 8190 images belonging to 221 classes
+
+ > Creating optimizer...
+   Optimizer: rmsprop. Lr: 0.0001. Rho: 0.9, epsilon=1e-8, clipnorm=10
+
+ > Building model...
+   Model: vgg16
+   Model: vgg16
+
+ > Creating callbacks...
+   Early stopping
+   Model Checkpoint
+   Plot per epoch
+
+ > Training the model...
+Epoch 1/30
